@@ -43,7 +43,7 @@ const controllers = {
 
     // Sample body for request
     // {
-    //   "Name": "new artist",
+    //   "Name": "new artist"
     // }
 
     db.run(sql, function (err) {
