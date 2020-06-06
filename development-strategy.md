@@ -82,6 +82,9 @@ A user can get all track list, get one track, create a new track, update an exit
 
 Deploy app using Heroku.
 
+* type to terminal `heroku create restful-chinook`
+* 
+
 ## 8. Write a Frontend
 
 If you have finished the API and are looking for a challenge, write a frontend!  No suggestions from us, impress yourself :)
