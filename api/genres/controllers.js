@@ -43,7 +43,7 @@ const controllers = {
 
     // Sample body for request
     // {
-    //   "Name": "New Genre",
+    //   "Name": "New Genre"
     // }
 
     db.run(sql, function (err) {
