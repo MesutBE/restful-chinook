@@ -43,8 +43,8 @@ const controllers = {
     
     // Sample body for request
     // {
-    //   "Title": "new artist",
-    //     "ArtistId": 10
+    //   "Title": "New Album",
+    //    "ArtistId": 247
     // }
 
     db.run(sql, function (err) {
@@ -71,8 +71,8 @@ const controllers = {
 
     // Sample body for request
     // {
-    //   "Title": "new artist",
-    //   "ArtistId": 300
+    //   "Title": "New Album Updated",
+    //   "ArtistId": 247
     // }
     db.run(sql, function (err) {
       if (err) {
