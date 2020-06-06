@@ -83,7 +83,16 @@ A user can get all track list, get one track, create a new track, update an exit
 Deploy app using Heroku.
 
 * type to terminal `heroku create restful-chinook`
-* 
+* type to terminal `git push heroku master`
+* Go to heroku page in the browser and then add `Config Vars` => `NODE_ENV: production`
+* Be sure `../config/production.js` includes all of the followings:
+```javascript
+module.exports = {
+  MODE: 'production',
+  PORT: process.env.PORT,
+  DATA_DIR: process.env.DATA_DIR
+};
+```
 
 ## 8. Write a Frontend
 
