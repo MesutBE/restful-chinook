@@ -1,6 +1,7 @@
 # Restful Chinook Project
 
 Build a RESTful API with CRUD access to all of the musical tables in the `chinook.sqlite` database.
+
 ---
 
 ## Table of contents
